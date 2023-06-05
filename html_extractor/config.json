@@ -1,0 +1,9 @@
+{
+    "extractors_path": "/scratch/bf996/CmonCrawl/html_extractor/Extractors",
+    "routes": [
+        {
+            "regexes": [".*"],
+            "extractors": [{"name" : "default_extractor"}]
+        }
+    ]
+}

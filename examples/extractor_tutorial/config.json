@@ -3,7 +3,7 @@
     "routes":   [
         {
                 "regexes": [".*bbc\\.com.*"],
-                "extractors": ["bbc_extractor"]
+                "extractors": [{"name" : "bbc_extractor"}]
         }
     ]
 }
